@@ -80,6 +80,7 @@ input('Getting your answers...')
 # Used if-else condition in the string showing the answer
 # Question 1
 print(f'{ques1}\nYou Answered: {answer1} - {first_choices[answer1] if 1 <= answer1 <= 4 else "Please uninstall, bruh. THE CHOICES ARE 1 TO 4 ONLY!"}')
+print(f'Correct Answer: {correct_answers[1]} - {first_choices[3]}')
 if answer1 == correct_answers[1]:
     print(f'✅ {correct1}')
     score1 = 1
@@ -89,6 +90,7 @@ else:
 
 # Question 2
 print(f'\n{ques2}\nYou Answered: {answer2} - {second_choices[answer2] if 1 <= answer2 <= 4 else "Please uninstall, bruh. THE CHOICES ARE 1 TO 4 ONLY!"}')
+print(f'Correct Answer: {correct_answers[2]} - {second_choices[1]}')
 if answer2 == correct_answers[2]:
     print(f'✅ {correct2}')
     score2 = 1
@@ -98,6 +100,7 @@ else:
 
 # Question 3
 print(f'\n{ques3}\nYou Answered: {answer3} - {third_choices[answer3] if 1 <= answer3 <= 4 else "Please uninstall, bruh. THE CHOICES ARE 1 TO 4 ONLY!"}')
+print(f'Correct Answer: {correct_answers[3]} - {third_choices[2]}')
 if answer3 == correct_answers[3]:
     print(f'✅ {correct3}')
     score3 = 1
